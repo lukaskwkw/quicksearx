@@ -1,0 +1,3 @@
+POst to https://searx.ebnar.xyz/search
+
+q=bypass+cross+origin+for+page+js&category_general=1&pageno=2&language=pl-PL&time_range=None&safesearch=1&theme=simple
