@@ -18,5 +18,6 @@
       "./web",
       "node_modules",
       "dist",
+      "*.test.ts",
     ]
   }
