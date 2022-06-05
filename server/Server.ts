@@ -18,7 +18,7 @@ export default class Server {
       res.send('You have reached the API!');
     });
 
-    this.app.get('/random', async (req: Request, res: Response): Promise<void> => {
+    this.app.get('/search', async (req: Request, res: Response): Promise<void> => {
       const { instances } = await this.getInstancesListFromHub();
 
       const instanceUrls = this.filterOutInstances(instances);
