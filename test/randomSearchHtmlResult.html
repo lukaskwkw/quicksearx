@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html class="no-js theme-auto" lang="en-EN" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="SearXNG — a privacy-respecting, hackable metasearch engine">
+  <meta name="keywords" content="SearXNG, search, search engine, metasearch, meta search">
+  <meta name="generator" content="searxng/2022.06.04-0ce9d9e8">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noarchive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <title>searxng</title>
+<link rel="alternate" type="application/rss+xml" title="Searx search: javascript" href="https://swag.pw/search?q=javascript&amp;categories=general&amp;pageno=1&amp;time_range=None&amp;language=en&amp;safesearch=0&amp;format=rss">  <link rel="stylesheet" href="https://swag.pw/static/themes/simple/css/searxng.min.css" type="text/css" media="screen" />
+  <!--[if gte IE 9]>-->
+  <script src="https://swag.pw/static/themes/simple/js/searxng.head.min.js" client_settings="eyJhdXRvY29tcGxldGVfcHJvdmlkZXIiOiAiIiwgImF1dG9jb21wbGV0ZV9taW4iOiA0LCAiaHR0cF9tZXRob2QiOiAiUE9TVCIsICJpbmZpbml0ZV9zY3JvbGwiOiBmYWxzZSwgInRyYW5zbGF0aW9ucyI6IHsibm9faXRlbV9mb3VuZCI6ICJObyBpdGVtIGZvdW5kIiwgIlNvdXJjZSI6ICJTb3VyY2UiLCAiZXJyb3JfbG9hZGluZ19uZXh0X3BhZ2UiOiAiRXJyb3IgbG9hZGluZyB0aGUgbmV4dCBwYWdlIn0sICJzZWFyY2hfb25fY2F0ZWdvcnlfc2VsZWN0IjogdHJ1ZSwgImhvdGtleXMiOiBmYWxzZSwgInRoZW1lX3N0YXRpY19wYXRoIjogIi9zdGF0aWMvdGhlbWVzL3NpbXBsZSJ9"></script>
+  <!--<![endif]-->
+  <link title="searxng" type="application/opensearchdescription+xml" rel="search" href="https://swag.pw/opensearch.xml?method=POST&amp;autocomplete="/>
+  <link rel="icon" href="https://swag.pw/static/themes/simple/img/favicon.png" sizes="any">
+  <link rel="icon" href="https://swag.pw/static/themes/simple/img/favicon.svg" type="image/svg+xml">
+</head>
+<body class="results_endpoint" >
+  <main id="main_results" class="">
+
+      <nav id="linkto_preferences"><a href="https://swag.pw/preferences" aria-label="preferences"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M262.29 192.31a64 64 0 1057.4 57.4 64.13 64.13 0 00-57.4-57.4zM416.39 256a154.34 154.34 0 01-1.53 20.79l45.21 35.46a10.81 10.81 0 012.45 13.75l-42.77 74a10.81 10.81 0 01-13.14 4.59l-44.9-18.08a16.11 16.11 0 00-15.17 1.75A164.48 164.48 0 01325 400.8a15.94 15.94 0 00-8.82 12.14l-6.73 47.89a11.08 11.08 0 01-10.68 9.17h-85.54a11.11 11.11 0 01-10.69-8.87l-6.72-47.82a16.07 16.07 0 00-9-12.22 155.3 155.3 0 01-21.46-12.57 16 16 0 00-15.11-1.71l-44.89 18.07a10.81 10.81 0 01-13.14-4.58l-42.77-74a10.8 10.8 0 012.45-13.75l38.21-30a16.05 16.05 0 006-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16 16 0 00-6.07-13.94l-38.19-30A10.81 10.81 0 0149.48 186l42.77-74a10.81 10.81 0 0113.14-4.59l44.9 18.08a16.11 16.11 0 0015.17-1.75A164.48 164.48 0 01187 111.2a15.94 15.94 0 008.82-12.14l6.73-47.89A11.08 11.08 0 01213.23 42h85.54a11.11 11.11 0 0110.69 8.87l6.72 47.82a16.07 16.07 0 009 12.22 155.3 155.3 0 0121.46 12.57 16 16 0 0015.11 1.71l44.89-18.07a10.81 10.81 0 0113.14 4.58l42.77 74a10.8 10.8 0 01-2.45 13.75l-38.21 30a16.05 16.05 0 00-6.05 14.08c.33 4.14.55 8.3.55 12.47z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></a></nav>
+<form id="search" method="POST" action="https://swag.pw/search" role="search">
+  <div id="search_header">
+    <a id="search_logo" href="https://swag.pw/" tabindex="0" title="Display the front page">
+      <span hidden>SearXNG</span>
+<svg width="92mm" height="92mm" viewBox="0 0 92 92"><g transform="translate(-40.921 -17.417)"><circle cx="75.921" cy="53.903" r="30" fill="none" fill-opacity="1" stroke="#3050ff" stroke-width="10" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/><path d="M67.515 37.915a18 18 0 0 1 21.051 3.313 18 18 0 0 1 3.138 21.078" fill="none" fill-opacity="1" stroke="#3050ff" stroke-width="5" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/><rect width="18.846" height="39.963" x="3.706" y="122.09" ry="0" transform="rotate(-46.235)" opacity="1" fill="#3050ff" fill-opacity="1" stroke="none" stroke-width="8" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/></g></svg>    </a>
+    <div id="search_view">
+      <div class="search_box">
+        <input id="q" name="q" type="text" placeholder="Search for..." autocomplete="off" autocapitalize="none" spellcheck="false" autocorrect="off" dir="auto" value="javascript">
+        <button id="clear_search" type="reset" aria-label="clear" class="hide_if_nojs"><span><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></svg></span><span class="show_if_nojs">clear</span></button>
+        <button id="send_search" type="submit" aria-label="search"><span class="hide_if_nojs"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg></span><span class="show_if_nojs">search</span></button>
+      </div>
+    </div>
+<div id="categories" class="search_categories"><div id="categories_container"><div class="category"><input type="checkbox" id="checkbox_general" name="category_general" checked="checked"/>
+            <label for="checkbox_general" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg><div class="category_name">general</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_images" name="category_images"/>
+            <label for="checkbox_images" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><rect x="48" y="80" width="416" height="352" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><circle cx="336" cy="176" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M304 335.79l-90.66-90.49a32 32 0 00-43.87-1.3L48 352M224 432l123.34-123.34a32 32 0 0143.11-2L464 368" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg><div class="category_name">images</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_videos" name="category_videos"/>
+            <label for="checkbox_videos" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg><div class="category_name">videos</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_news" name="category_news"/>
+            <label for="checkbox_news" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M368 415.86V72a24.07 24.07 0 00-24-24H72a24.07 24.07 0 00-24 24v352a40.12 40.12 0 0040 40h328" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M416 464h0a48 48 0 01-48-48V128h72a24 24 0 0124 24v264a48 48 0 01-48 48z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M240 128h64M240 192h64M112 256h192M112 320h192M112 384h192"/><path d="M176 208h-64a16 16 0 01-16-16v-64a16 16 0 0116-16h64a16 16 0 0116 16v64a16 16 0 01-16 16z"/></svg><div class="category_name">news</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_map" name="category_map"/>
+            <label for="checkbox_map" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg><div class="category_name">map</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_music" name="category_music"/>
+            <label for="checkbox_music" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M192 218v-6c0-14.84 10-27 24.24-30.59l174.59-46.68A20 20 0 01416 154v22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M416 295.94v80c0 13.91-8.93 25.59-22 30l-22 8c-25.9 8.72-52-10.42-52-38h0a33.37 33.37 0 0123-32l51-18.15c13.07-4.4 22-15.94 22-29.85V58a10 10 0 00-12.6-9.61L204 102a16.48 16.48 0 00-12 16v226c0 13.91-8.93 25.6-22 30l-52 18c-13.88 4.68-22 17.22-22 32h0c0 27.58 26.52 46.55 52 38l22-8c13.07-4.4 22-16.08 22-30v-80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg><div class="category_name">music</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_it" name="category_it"/>
+            <label for="checkbox_it" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M434.8 137.65l-149.36-68.1c-16.19-7.4-42.69-7.4-58.88 0L77.3 137.65c-17.6 8-17.6 21.09 0 29.09l148 67.5c16.89 7.7 44.69 7.7 61.58 0l148-67.5c17.52-8 17.52-21.1-.08-29.09zM160 308.52l-82.7 37.11c-17.6 8-17.6 21.1 0 29.1l148 67.5c16.89 7.69 44.69 7.69 61.58 0l148-67.5c17.6-8 17.6-21.1 0-29.1l-79.94-38.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M160 204.48l-82.8 37.16c-17.6 8-17.6 21.1 0 29.1l148 67.49c16.89 7.7 44.69 7.7 61.58 0l148-67.49c17.7-8 17.7-21.1.1-29.1L352 204.48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg><div class="category_name">it</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_science" name="category_science"/>
+            <label for="checkbox_science" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M32 192L256 64l224 128-224 128L32 192z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 240v128l144 80 144-80V240M480 368V192M256 320v128"/></svg><div class="category_name">science</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_files" name="category_files"/>
+            <label for="checkbox_files" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M384 80H128c-26 0-43 14-48 40L48 272v112a48.14 48.14 0 0048 48h320a48.14 48.14 0 0048-48V272l-32-152c-5-27-23-40-48-40z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M48 272h144M320 272h144M192 272a64 64 0 00128 0M144 144h224M128 208h256"/></svg><div class="category_name">files</div>
+            </label>
+        </div><div class="category"><input type="checkbox" id="checkbox_social_media" name="category_social media"/>
+            <label for="checkbox_social_media" class="tooltips"><svg class="ion-icon-big" viewBox="0 0 512 512" aria-hidden="true"><path d="M402 168c-2.93 40.67-33.1 72-66 72s-63.12-31.32-66-72c-3-42.31 26.37-72 66-72s69 30.46 66 72z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M336 304c-65.17 0-127.84 32.37-143.54 95.41-2.08 8.34 3.15 16.59 11.72 16.59h263.65c8.57 0 13.77-8.25 11.72-16.59C463.85 335.36 401.18 304 336 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M200 185.94c-2.34 32.48-26.72 58.06-53 58.06s-50.7-25.57-53-58.06C91.61 152.15 115.34 128 147 128s55.39 24.77 53 57.94z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M206 306c-18.05-8.27-37.93-11.45-59-11.45-52 0-102.1 25.85-114.65 76.2-1.65 6.66 2.53 13.25 9.37 13.25H154" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg><div class="category_name">social media</div>
+            </label>
+        </div><div class="help">Click on the magnifier to perform search</div></div></div>  </div>
+  <div class="search_filters">
+<select class="language" id="language" name="language" aria-label="Search language"><option value="all" >Default language</option><option value="af-ZA" >
+🇿🇦 Afrikaans (Suid-Afrika) 	</option><option value="ca-ES" >
+🇪🇸 Català (Espanya) 	</option><option value="da-DK" >
+🇩🇰 Dansk (Danmark) 	</option><option value="de" >
+🌐 Deutsch 	</option><option value="de-AT" >
+🇦🇹 Deutsch (Österreich) 	</option><option value="de-CH" >
+🇨🇭 Deutsch (Schweiz) 	</option><option value="de-DE" >
+🇩🇪 Deutsch (Deutschland) 	</option><option value="et-EE" >
+🇪🇪 Eesti (Eesti) 	</option><option value="en" selected="selected">
+🌐 English 	</option><option value="en-AU" >
+🇦🇺 English (Australia) 	</option><option value="en-CA" >
+🇨🇦 English (Canada) 	</option><option value="en-GB" >
+🇬🇧 English (United Kingdom) 	</option><option value="en-IE" >
+🇮🇪 English (Ireland) 	</option><option value="en-MY" >
+🇲🇾 English (Malaysia) 	</option><option value="en-NZ" >
+🇳🇿 English (New Zealand) 	</option><option value="en-US" >
+🇺🇸 English (United States) 	</option><option value="es" >
+🌐 Español 	</option><option value="es-AR" >
+🇦🇷 Español (Argentina) 	</option><option value="es-CL" >
+🇨🇱 Español (Chile) 	</option><option value="es-ES" >
+🇪🇸 Español (España) 	</option><option value="es-MX" >
+🇲🇽 Español (México) 	</option><option value="fil-PH" >
+🇵🇭 Filipino (Pilipinas) 	</option><option value="fr" >
+🌐 Français 	</option><option value="fr-BE" >
+🇧🇪 Français (Belgique) 	</option><option value="fr-CA" >
+🇨🇦 Français (Canada) 	</option><option value="fr-CH" >
+🇨🇭 Français (Suisse) 	</option><option value="fr-FR" >
+🇫🇷 Français (France) 	</option><option value="hr-HR" >
+🇭🇷 Hrvatski (Hrvatska) 	</option><option value="id-ID" >
+🇮🇩 Indonesia (Indonesia) 	</option><option value="it-IT" >
+🇮🇹 Italiano (Italia) 	</option><option value="sw-TZ" >
+🇹🇿 Kiswahili (Tanzania) 	</option><option value="lv-LV" >
+🇱🇻 Latviešu (Latvija) 	</option><option value="lt-LT" >
+🇱🇹 Lietuvių (Lietuva) 	</option><option value="hu-HU" >
+🇭🇺 Magyar (Magyarország) 	</option><option value="nl" >
+🌐 Nederlands 	</option><option value="nl-BE" >
+🇧🇪 Nederlands (België) 	</option><option value="nl-NL" >
+🇳🇱 Nederlands (Nederland) 	</option><option value="no-NO" >
+🇳🇴 Norsk 	</option><option value="pl-PL" >
+🇵🇱 Polski (Polska) 	</option><option value="pt" >
+🌐 Português 	</option><option value="pt-BR" >
+🇧🇷 Português (Brasil) 	</option><option value="pt-PT" >
+🇵🇹 Português (Portugal) 	</option><option value="ro-RO" >
+🇷🇴 Română (România) 	</option><option value="sk-SK" >
+🇸🇰 Slovenčina (Slovensko) 	</option><option value="sl-SI" >
+🇸🇮 Slovenščina (Slovenija) 	</option><option value="fi-FI" >
+🇫🇮 Suomi (Suomi) 	</option><option value="sv-SE" >
+🇸🇪 Svenska (Sverige) 	</option><option value="vi-VN" >
+🇻🇳 Tiếng Việt (Việt Nam) 	</option><option value="tr-TR" >
+🇹🇷 Türkçe (Türkiye) 	</option><option value="is-IS" >
+🇮🇸 Íslenska (Ísland) 	</option><option value="cs-CZ" >
+🇨🇿 Čeština (Česko) 	</option><option value="el-GR" >
+🇬🇷 Ελληνικά (Ελλάδα) 	</option><option value="be-BY" >
+🇧🇾 Беларуская (Беларусь) 	</option><option value="bg-BG" >
+🇧🇬 Български (България) 	</option><option value="ru-RU" >
+🇷🇺 Русский (Россия) 	</option><option value="sr-RS" >
+🇷🇸 Српски (Србија) 	</option><option value="uk-UA" >
+🇺🇦 Українська (Україна) 	</option><option value="he-IL" >
+🇮🇱 עברית (ישראל) 	</option><option value="ar-EG" >
+🇪🇬 العربية (مصر) 	</option><option value="fa-IR" >
+🇮🇷 فارسی (ایران) 	</option><option value="hi-IN" >
+🇮🇳 हिन्दी (भारत) 	</option><option value="th-TH" >
+🇹🇭 ไทย (ไทย) 	</option><option value="zh" >
+🌐 中文 	</option><option value="zh-CN" >
+🇨🇳 中文 (中国) 	</option><option value="zh-HK" >
+🇭🇰 中文 (中國香港) 	</option><option value="zh-TW" >
+🇹🇼 中文 (台灣) 	</option><option value="ja-JP" >
+🇯🇵 日本語 (日本) 	</option><option value="ko-KR" >
+🇰🇷 한국어 (대한민국) 	</option></select><select name="time_range" id="time_range" class="time_range" aria-label="Time range"><option id="time-range-anytime" value="" selected>Anytime</option><option id="time-range-day" value="day" >Last day</option><option id="time-range-week" value="week" >Last week</option><option id="time-range-month" value="month" >Last month</option><option id="time-range-year" value="year" >Last year</option></select><select  name="safesearch" id="safesearch" class="safesearch" aria-label="SafeSearch">
+    <option value="2"  aria-label="Strict">SafeSearch: Strict</option>
+    <option value="1"  aria-label="Moderate">SafeSearch: Moderate</option>
+    <option value="0" selected="selected" aria-label="None">SafeSearch: None</option>
+</select>  </div>
+  <input type="hidden" name="theme" value="simple" >
+</form>
+
+<div id="results" class="only_template_default">
+
+    <div id="sidebar">
+
+<p id="result_count"><small>Number of results: 3,770,000,000</small></p>
+
+        <div id="infoboxes">
+<aside class="infobox" aria-label="JavaScript">
+  <h2><bdi>JavaScript</bdi></h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Faenza-text-x-javascript.svg/500px-Faenza-text-x-javascript.svg.png" title="JavaScript" alt="JavaScript"><p><bdi>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</bdi></p>
+  <div class="attributes">
+    <dl>
+      <dt><bdi>Inception :</bdi></dt><dd><bdi>January 1996</bdi></dd></dl>
+    <dl>
+      <dt><bdi>Publication date :</bdi></dt><dd><bdi>January 1995</bdi></dd></dl>
+    <dl>
+      <dt><bdi>Software version identifier :</bdi></dt><dd><bdi>ECMAScript 2022, ECMAScript 2021</bdi></dd></dl>
+  </div>
+
+  <div class="urls">
+    <ul><li class="url"><bdi><a href="https://en.wikipedia.org/wiki/JavaScript" rel="noreferrer">Wikipedia</a></bdi></li><li class="url"><bdi><a href="http://www.wikidata.org/entity/Q2005" rel="noreferrer">Wikidata</a></bdi></li></ul>
+  </div>
+
+</aside>        </div>
+
+        <div id="suggestions" role="complementary" aria-labelledby="suggestions-title">
+	  <h4 class="title" id="suggestions-title">Suggestions : </h4>
+	  <div class="wrapper">
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript free download">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript free download">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript w3schools">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript w3schools">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript tutorial">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript tutorial">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript online">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript online">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript operator">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript operator">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript vs java">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript vs java">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript compiler">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript compiler">
+            </form>
+            <form method="POST" action="https://swag.pw/search">
+              <input type="hidden" name="q" value="javascript javatpoint">
+              <input type="hidden" name="category_general" value="1">
+              <input type="hidden" name="language" value="en">
+              <input type="hidden" name="time_range" value="None">
+              <input type="hidden" name="safesearch" value="0">
+              <input type="hidden" name="theme" value="simple">
+              <input type="submit" class="suggestion" role="link" value="&bull; javascript javatpoint">
+            </form>
+	  </div>
+        </div>
+
+        <div id="search_url" role="complementary" aria-labelledby="search_url-title">
+            <h4 class="title" id="search_url-title">Search URL :</h4>
+            <div class="selectable_url"><pre>https://swag.pw/search?q=javascript&amp;language=en&amp;time_range=None&amp;safesearch=0&amp;categories=general</pre></div>
+        </div>
+        <div id="apis" role="complementary" aria-labelledby="apis-title">
+        </div>
+    </div>
+
+
+    <div id="urls" role="main">
+
+<article class="result result-default category-general wikidata google duckduckgo qwant wikipedia"><a href="https://en.wikipedia.org/wiki/JavaScript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://en.wikipedia.org</span></span><span class="url_o2"><span class="url_i2"> › wiki › JavaScript</span></span></a><h3><a href="https://en.wikipedia.org/wiki/JavaScript" rel="noreferrer"><span class="highlight">JavaScript</span></a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> (/ ˈ dʒ ɑː v ə s k r ɪ p t /), often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use <span class="highlight">JavaScript</span> on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated <span class="highlight">JavaScript</span> engine to execute the code on users&#x27; devices.
+  </p><div class="engines">
+<span>wikidata</span><span>google</span><span>duckduckgo</span><span>qwant</span><span>wikipedia</span>  <a href="https://web.archive.org/web/https://en.wikipedia.org/wiki/JavaScript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google duckduckgo qwant"><a href="https://www.javascript.com/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.javascript.com</span></span><span class="url_o2"><span class="url_i2"></span></span></a><h3><a href="https://www.javascript.com/" rel="noreferrer"><span class="highlight">JavaScript</span>.com</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span>.com is a resource for the <span class="highlight">JavaScript</span> community. You will find resources and examples for <span class="highlight">JavaScript</span> beginners as well as support for <span class="highlight">JavaScript</span> experts ...
+  </p><div class="engines">
+<span>google</span><span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://www.javascript.com/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://www.w3schools.com/js/DEFAULT.asp" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.w3schools.com</span></span><span class="url_o2"><span class="url_i2"> › js › DEFAULT.asp</span></span></a><h3><a href="https://www.w3schools.com/js/DEFAULT.asp" rel="noreferrer"><span class="highlight">JavaScript</span> Tutorial - W3Schools</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is free to use for everyone. <span class="highlight">JavaScript</span> References. W3Schools maintains a complete <span class="highlight">JavaScript</span> reference, including all HTML and browser objects. The reference contains examples for all properties, methods and events, and is continuously updated according to the latest web standards.
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://www.w3schools.com/js/DEFAULT.asp" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google duckduckgo qwant"><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://developer.mozilla.org</span></span><span class="url_o2"><span class="url_i2"> › en-US › docs › Learn › JavaScript › First_steps › What_is_JavaScript</span></span></a><h3><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" rel="noreferrer">What is <span class="highlight">JavaScript</span>? - Learn web development | MDN</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of <span class="highlight">JavaScript</span> code.) The three layers build on top of one another nicely.
+  </p><div class="engines">
+<span>google</span><span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google duckduckgo qwant"><a href="https://javascript.info/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://javascript.info</span></span><span class="url_o2"><span class="url_i2"></span></span></a><h3><a href="https://javascript.info/" rel="noreferrer">The Modern <span class="highlight">JavaScript</span> Tutorial</a></h3>  <p class="content">
+    Modern <span class="highlight">JavaScript</span> Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.
+  </p><div class="engines">
+<span>google</span><span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://javascript.info/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://enable-javascript.com/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://enable-javascript.com</span></span><span class="url_o2"><span class="url_i2"></span></span></a><h3><a href="https://enable-javascript.com/" rel="noreferrer">How to enable <span class="highlight">JavaScript</span> in your browser and why</a></h3>  <p class="content">
+    In the search box, search for <span class="highlight">javascript</span>.enabled; Toggle the &quot;<span class="highlight">javascript</span>.enabled&quot; preference (right-click and select &quot;Toggle&quot; or double-click the preference) to change the value from &quot;false&quot; to &quot;true&quot;. Click on the &quot;Reload current page&quot; button of the web browser to refresh the page.
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://enable-javascript.com/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://www.microsoft.com/en-us/p/javascript/9nblggh0ckr4" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.microsoft.com</span></span><span class="url_o2"><span class="url_i2"> › en-us › p › javascript › 9nblggh0ckr4</span></span></a><h3><a href="https://www.microsoft.com/en-us/p/javascript/9nblggh0ckr4" rel="noreferrer">Get <span class="highlight">JavaScript</span> - Microsoft Store</a></h3>  <p class="content">
+    Download this app from Microsoft Store for Windows 10 Mobile, Windows Phone 8.1, Windows Phone 8. See screenshots, read the latest customer reviews, and compare ratings for <span class="highlight">JavaScript</span>.
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://www.microsoft.com/en-us/p/javascript/9nblggh0ckr4" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://stackoverflow.com/questions/10899448/what-does-the-sign-mean-in-javascript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://stackoverflow.com</span></span><span class="url_o2"><span class="url_i2"> › questions › 10899448 › what-does-the-sign-mean-in-javascript</span></span></a><h3><a href="https://stackoverflow.com/questions/10899448/what-does-the-sign-mean-in-javascript" rel="noreferrer">What does the &#x27;#&#x27; sign mean in <span class="highlight">JavaScript</span>? - Stack Overflow</a></h3>  <p class="content">
+    That&#x27;s jQuery and the pound sign (#) refers to an element&#x27;s ID. It&#x27;s one way jQuery can select an element. In your example, it would select the element with the ID of &quot;searchTerm&quot;. For id selectors, jQuery uses the <span class="highlight">JavaScript</span> function document.getElementById (), which is extremely efficient.
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://stackoverflow.com/questions/10899448/what-does-the-sign-mean-in-javascript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google"><a href="https://www.w3schools.com/js/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.w3schools.com</span></span><span class="url_o2"><span class="url_i2"> › js</span></span></a><h3><a href="https://www.w3schools.com/js/" rel="noreferrer"><span class="highlight">JavaScript</span> Tutorial - W3Schools</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is the world&#x27;s most popular programming language. <span class="highlight">JavaScript</span> is the programming language of the Web. <span class="highlight">JavaScript</span> is easy to learn.
+  </p><div class="engines">
+<span>google</span>  <a href="https://web.archive.org/web/https://www.w3schools.com/js/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://www.runoob.com/js/js-tutorial.html" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.runoob.com</span></span><span class="url_o2"><span class="url_i2"> › js › js-tutorial.html</span></span></a><h3><a href="https://www.runoob.com/js/js-tutorial.html" rel="noreferrer"><span class="highlight">JavaScript</span> 教程 | 菜鸟教程</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> 教程 <span class="highlight">JavaScript</span> 是 Web 的编程语言。 所有现代的 HTML 页面都可以使用 <span class="highlight">JavaScript</span>。 <span class="highlight">JavaScript</span> 非常容易学。 本教程将教你学习从初级到高级 <span class="highlight">JavaScript</span> 知识。 <span class="highlight">JavaScript</span> 在线实例 本教程包含了大量的 <span class="highlight">JavaScript</span> 实例， 您可以点击 &#x27;尝试一下&#x27; 来在线查看实例。
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://www.runoob.com/js/js-tutorial.html" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo qwant"><a href="https://www.geeksforgeeks.org/javascript/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.geeksforgeeks.org</span></span><span class="url_o2"><span class="url_i2"> › javascript</span></span></a><h3><a href="https://www.geeksforgeeks.org/javascript/" rel="noreferrer"><span class="highlight">JavaScript</span> - GeeksforGeeks</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span>. <span class="highlight">JavaScript</span> is the world most popular lightweight, interpreted compiled programming language. It is also known as scripting language for web pages. It is well-known for the development of web pages, many non-browser environments also use it. <span class="highlight">JavaScript</span> can be used for Client-side developments as well as Server-side developments.
+  </p><div class="engines">
+<span>duckduckgo</span><span>qwant</span>  <a href="https://web.archive.org/web/https://www.geeksforgeeks.org/javascript/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google duckduckgo"><a href="https://www.codecademy.com/learn/introduction-to-javascript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.codecademy.com</span></span><span class="url_o2"><span class="url_i2"> › learn › introduction-to-javascript</span></span></a><h3><a href="https://www.codecademy.com/learn/introduction-to-javascript" rel="noreferrer"><span class="highlight">JavaScript</span> Tutorial: Learn <span class="highlight">JavaScript</span> For Free | Codecademy</a></h3>  <p class="content">
+    Learn <span class="highlight">JavaScript</span> and <span class="highlight">Javascript</span> arrays to build interactive websites and pages that adapt to every device. Add dynamic behavior, store information, and handle requests and responses. This course can help marketers and designers upgrade their career and is a starting point for front-end engineers.
+  </p><div class="engines">
+<span>google</span><span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.codecademy.com/learn/introduction-to-javascript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://developer.mozilla.org/en-US/docs/Web/javascript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://developer.mozilla.org</span></span><span class="url_o2"><span class="url_i2"> › en-US › docs › Web › javascript</span></span></a><h3><a href="https://developer.mozilla.org/en-US/docs/Web/javascript" rel="noreferrer"><span class="highlight">JavaScript</span> | MDN - Mozilla</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. <span class="highlight">JavaScript</span> is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://developer.mozilla.org/en-US/docs/Web/javascript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://developer.mozilla.org</span></span><span class="url_o2"><span class="url_i2"> › en-US › docs › Web › JavaScript</span></span></a><h3><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noreferrer"><span class="highlight">JavaScript</span> - MDN Web Docs - Mozilla</a></h3>  <p class="content">
+    May 27, 2022 — <span class="highlight">JavaScript</span> (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+  </p><div class="engines">
+<span>google</span>  <a href="https://web.archive.org/web/https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general google"><a href="https://www.codecademy.com/catalog/language/javascript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.codecademy.com</span></span><span class="url_o2"><span class="url_i2"> › catalog › language › javascript</span></span></a><h3><a href="https://www.codecademy.com/catalog/language/javascript" rel="noreferrer"><span class="highlight">JavaScript</span> Courses &amp; Tutorials - Codecademy</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is a fun and flexible programming language. It&#x27;s one of the core technologies of web development and can be used on both the front-end and the ...
+  </p><div class="engines">
+<span>google</span>  <a href="https://web.archive.org/web/https://www.codecademy.com/catalog/language/javascript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://support.microsoft.com/en-us/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://support.microsoft.com</span></span><span class="url_o2"><span class="url_i2"> › en-us › office › enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361</span></span></a><h3><a href="https://support.microsoft.com/en-us/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" rel="noreferrer">Enable <span class="highlight">JavaScript</span></a></h3>  <p class="content">
+    On the Content tab, click the Enable <span class="highlight">JavaScript</span> check box. Safari. If you&#x27;re running Windows OS, click Tools &gt; Preferences. Tip: ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://support.microsoft.com/en-us/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://support.microsoft.com/en-gb/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://support.microsoft.com</span></span><span class="url_o2"><span class="url_i2"> › en-gb › office › enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361</span></span></a><h3><a href="https://support.microsoft.com/en-gb/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" rel="noreferrer">Enable <span class="highlight">JavaScript</span></a></h3>  <p class="content">
+    Tip: If you&#x27;re running Mac OS, click the Firefox drop-down list &gt; Preferences. On the Content tab, click the Enable <span class="highlight">JavaScript</span> check box. If you&#x27;re running Windows OS, click Tools &gt; Preferences. Tip: If you&#x27;re running Mac OS, from the Safari menu, click &gt; Preferences. Click the Enable <span class="highlight">JavaScript</span> check box. Click Close and refresh the browser.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://support.microsoft.com/en-gb/office/enable-javascript-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://javascript.info/intro" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://javascript.info</span></span><span class="url_o2"><span class="url_i2"> › intro</span></span></a><h3><a href="https://javascript.info/intro" rel="noreferrer">An Introduction to <span class="highlight">JavaScript</span></a></h3>  <p class="content">
+    In-browser <span class="highlight">JavaScript</span> can do everything related to webpage manipulation, interaction with the user, and the webserver. For instance, in-browser <span class="highlight">JavaScript</span> is able to: Add new HTML to the page, change the existing content, modify styles. React to user actions, run on mouse clicks, pointer movements, key presses.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://javascript.info/intro" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://code.tutsplus.com/tutorials/whats-new-in-javascript-185--net-16779" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://code.tutsplus.com</span></span><span class="url_o2"><span class="url_i2"> › tutorials › whats-new-in-javascript-185--net-16779</span></span></a><h3><a href="https://code.tutsplus.com/tutorials/whats-new-in-javascript-185--net-16779" rel="noreferrer">What&#x27;s new in <span class="highlight">JavaScript</span> 1.8.5 - Code Envato Tuts+</a></h3>  <p class="content">
+    What&#x27;s new in <span class="highlight">JavaScript</span> 1.8.5. It&#x27;s a great time for <span class="highlight">JavaScript</span>. Not only is it becoming a much more respected language, but it&#x27;s also growing in leaps and bounds - both in popularity and features. As more browsers begin to implement the features of the ECMAScript 5th edition standard, <span class="highlight">JavaScript</span> becomes an even more powerful platform for ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://code.tutsplus.com/tutorials/whats-new-in-javascript-185--net-16779" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.w3schools.com/whatis/whatis_js.asp" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.w3schools.com</span></span><span class="url_o2"><span class="url_i2"> › whatis › whatis_js.asp</span></span></a><h3><a href="https://www.w3schools.com/whatis/whatis_js.asp" rel="noreferrer">What is <span class="highlight">JavaScript</span> - W3Schools</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is the Programming Language for the Web. <span class="highlight">JavaScript</span> can update and change both HTML and CSS. <span class="highlight">JavaScript</span> can calculate, manipulate and validate data. <span class="highlight">JavaScript</span> Quickstart Tutorial. This tutorial will take a quick look at the most important <span class="highlight">JavaScript</span> data types. <span class="highlight">JavaScript</span> variables can be: Numbers; Strings;
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.w3schools.com/whatis/whatis_js.asp" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://bootcamp.berkeley.edu/resources/coding/learn-javascript/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://bootcamp.berkeley.edu</span></span><span class="url_o2"><span class="url_i2"> › resources › coding › learn-javascript</span></span></a><h3><a href="https://bootcamp.berkeley.edu/resources/coding/learn-javascript/" rel="noreferrer">Learn <span class="highlight">JavaScript</span>: <span class="highlight">JavaScript</span> Programming for Absolute Beginners in 2022 ...</a></h3>  <p class="content">
+    The <span class="highlight">JavaScript</span> Language: Introduction. <span class="highlight">JavaScript</span> is an object-oriented scripting language used most often in web development — although, as we mentioned earlier, it can be applied to other coding fields. As an object-oriented language (OOP), <span class="highlight">JavaScript</span> depends on objects, or data structures that hold data and the applicable functions.OOPs are designed to allow coders to structure and modify ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://bootcamp.berkeley.edu/resources/coding/learn-javascript/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://docs.microsoft.com/en-us/javascript/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://docs.microsoft.com</span></span><span class="url_o2"><span class="url_i2"> › en-us › javascript</span></span></a><h3><a href="https://docs.microsoft.com/en-us/javascript/" rel="noreferrer"><span class="highlight">JavaScript</span> at Microsoft | Microsoft Docs</a></h3>  <p class="content">
+    The <span class="highlight">JavaScript</span> decorators proposal will move to Stage 3 of the standadization process, splitting aside the Metadata discussions in a separate proposal. React 18 is now available This latest major version includes out-of-the-box improvements like automatic batching, new APIs like startTransition, and streaming server-side rendering with support ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://docs.microsoft.com/en-us/javascript/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.javatpoint.com/javascript-tutorial" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.javatpoint.com</span></span><span class="url_o2"><span class="url_i2"> › javascript-tutorial</span></span></a><h3><a href="https://www.javatpoint.com/javascript-tutorial" rel="noreferrer">Learn <span class="highlight">JavaScript</span> Tutorial - javatpoint</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is a weakly typed language, where certain types are implicitly cast (depending on the operation). <span class="highlight">JavaScript</span> is an object-oriented programming language that uses prototypes rather than using classes for inheritance. It is a light-weighted and interpreted language. It is a case-sensitive language. <span class="highlight">JavaScript</span> is supportable in several ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.javatpoint.com/javascript-tutorial" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://howtodoinjava.com/javascript/javascript-equality-vs-identity-operators/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://howtodoinjava.com</span></span><span class="url_o2"><span class="url_i2"> › javascript › javascript-equality-vs-identity-operators</span></span></a><h3><a href="https://howtodoinjava.com/javascript/javascript-equality-vs-identity-operators/" rel="noreferrer"><span class="highlight">JavaScript</span> - Equality (==) vs. Identity (===) Operators</a></h3>  <p class="content">
+    Remember when performing comparisons, the equality operator (==) will attempt to make the data types the same before proceeding. On the other hand, the identity operator (===) requires both data types to be the same, as a prerequisite. Let&#x27;s understand with an example. See the code below : var valueOne = 3; var valueTwo = &quot;3&quot;;
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://howtodoinjava.com/javascript/javascript-equality-vs-identity-operators/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.javascripttutorial.net/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.javascripttutorial.net</span></span><span class="url_o2"><span class="url_i2"></span></span></a><h3><a href="https://www.javascripttutorial.net/" rel="noreferrer"><span class="highlight">JavaScript</span> Tutorial</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> Hello World - learn how to execute the first <span class="highlight">JavaScript</span> code that displays the famous &quot;Hello, World!&quot; message. Section 2. Fundamentals. Syntax - explain the <span class="highlight">JavaScript</span> syntax, including whitespace, statements, identifiers, keywords, expressions, and comments. Variables - show you how to declare variables.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.javascripttutorial.net/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.tutorialspoint.com/javascript/index.htm" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.tutorialspoint.com</span></span><span class="url_o2"><span class="url_i2"> › javascript › index.htm</span></span></a><h3><a href="https://www.tutorialspoint.com/javascript/index.htm" rel="noreferrer"><span class="highlight">Javascript</span> Tutorial - Biggest Online Tutorials Library</a></h3>  <p class="content">
+    <span class="highlight">Javascript</span> Tutorial. <span class="highlight">JavaScript</span> is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. <span class="highlight">JavaScript</span> is very easy to implement because it is integrated with HTML.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.tutorialspoint.com/javascript/index.htm" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.programiz.com/javascript" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.programiz.com</span></span><span class="url_o2"><span class="url_i2"> › javascript</span></span></a><h3><a href="https://www.programiz.com/javascript" rel="noreferrer">Learn <span class="highlight">JavaScript</span> Programming</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is a powerful and flexible programming language. It can execute on a web browser that allows us to make interactive webpages such as popup menus, animations, form validation etc. <span class="highlight">JavaScript</span> can also execute on a server. Our <span class="highlight">JavaScript</span> tutorials will help you understand the core concepts of modern <span class="highlight">JavaScript</span> one step at a time.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.programiz.com/javascript" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<div class="result result-default duckduckgo"><h4 class="result_header" id="result-5"><a href="https://mozilla-firefox.en.softonic.com/" rel="noreferrer" aria-labelledby="result-5"><span class="highlight">Mozilla</span> Firefox - Download</a></h4><p class="result-content"><span class="highlight">Mozilla</span> Firefox is a free web browser for Windows and Mac operating systems. Launched by the <span class="highlight">Mozilla</span> Foundation in 2003, the open-source program has undergone several name changes, face-lifts, and updates to become the class software it is today. Web browser with key advantages</p><div class="clearfix"></div><div class="pull-right"><span class="label label-default">duckduckgo</span><small><a href="https://web.archive.org/web/https://mozilla-firefox.en.softonic.com/" class="text-info" rel="noreferrer" aria-labelledby="result-5"><span title="" class="glyphicon glyphicon-link"></span>cached</a></small></div><div class="external-link">https://mozilla-firefox.en.softonic.com/</div></div>
+<div class="result result-default duckduckgo"><h4 class="result_header" id="result-10"><a href="https://addons.mozilla.org/el/firefox/" rel="noreferrer" aria-labelledby="result-10">Πρόσθετα για το Firefox (el) - <span class="highlight">Mozilla</span></a></h4><p class="result-content">Κάντε λήψη επεκτάσεων και θεμάτων του Firefox. Είναι σαν εφαρμογές για το πρόγραμμα περιήγησής σας. Μπορούν να αποκλείουν ενοχλητικές διαφημίσεις, να προστατεύουν κωδικούς πρόσβασης, να αλλάξουν την εμφάνιση του ...</p><div class="clearfix"></div><div class="pull-right"><span class="label label-default">duckduckgo</span><small><a href="https://web.archive.org/web/https://addons.mozilla.org/el/firefox/" class="text-info" rel="noreferrer" aria-labelledby="result-10"><span title="" class="glyphicon glyphicon-link"></span>cached</a></small></div><div class="external-link">https://addons.mozilla.org/el/firefox/</div></div>
+<article class="result result-default category-general duckduckgo"><a href="https://www.educba.com/install-javascript/" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.educba.com</span></span><span class="url_o2"><span class="url_i2"> › install-javascript</span></span></a><h3><a href="https://www.educba.com/install-javascript/" rel="noreferrer">Easy Steps to Install <span class="highlight">JavaScript</span> and PyCharm Editor - EDUCBA</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is also one of the languages supported by PyCharm. Using professional edition we can develop Django, Flask and Pyramid applications as well. Also, it fully supports HTML5, CSS and XML. All the languages are bundled in the IDE via plugins, and they are present by default. We can add more plugins so that it can support other languages ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.educba.com/install-javascript/" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.tutorialspoint.com</span></span><span class="url_o2"><span class="url_i2"> › javascript › javascript_overview.htm</span></span></a><h3><a href="https://www.tutorialspoint.com/javascript/javascript_overview.htm" rel="noreferrer"><span class="highlight">JavaScript</span> - Overview - Tutorials Point</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities. <span class="highlight">JavaScript</span> was first known as LiveScript, but ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.tutorialspoint.com/javascript/javascript_overview.htm" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://java.com/en/download/manual.jsp" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://java.com</span></span><span class="url_o2"><span class="url_i2"> › en › download › manual.jsp</span></span></a><h3><a href="https://java.com/en/download/manual.jsp" rel="noreferrer">Java Downloads for All Operating Systems</a></h3>  <p class="content">
+    Commercial license and support is available with a low cost Java SE Subscription. Oracle also provides the latest OpenJDK release under the open source GPL License at jdk.java.net. Select the file according to your operating system from the list below to get the latest Java for your computer. &gt; All Java Downloads. &gt; Remove Older Versions.
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://java.com/en/download/manual.jsp" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>
+<article class="result result-default category-general duckduckgo"><a href="https://www.javatpoint.com/javascript-function" class="url_wrapper" rel="noreferrer"><span class="url_o1"><span class="url_i1">https://www.javatpoint.com</span></span><span class="url_o2"><span class="url_i2"> › javascript-function</span></span></a><h3><a href="https://www.javatpoint.com/javascript-function" rel="noreferrer"><span class="highlight">JavaScript</span> function - javatpoint</a></h3>  <p class="content">
+    <span class="highlight">JavaScript</span> Functions. <span class="highlight">JavaScript</span> functions are used to perform operations. We can call <span class="highlight">JavaScript</span> function many times to reuse the code. Advantage of <span class="highlight">JavaScript</span> function. There are mainly two advantages of <span class="highlight">JavaScript</span> functions. Code reusability: We can call a function several times so it save coding. Less coding: It makes our program compact ...
+  </p><div class="engines">
+<span>duckduckgo</span>  <a href="https://web.archive.org/web/https://www.javatpoint.com/javascript-function" class="cache_link" rel="noreferrer"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="416" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><circle cx="256" cy="96" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>cached</a>&lrm; </div><div class="break"></div></article>    </div>
+    <div id="backToTop">
+      <a href="#" aria-label="Back to top"><svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 328l144-144 144 144"/></svg></a>
+    </div>
+    <nav id="pagination" role="navigation">
+        <form method="POST" action="https://swag.pw/search" class="next_page">
+            <div class="right">
+              <input type="hidden" name="q" value="javascript" >
+              <input type="hidden" name="category_general" value="1" >
+              <input type="hidden" name="pageno" value="2" >
+              <input type="hidden" name="language" value="en" >
+              <input type="hidden" name="time_range" value="None" >
+              <input type="hidden" name="safesearch" value="0" >
+              <input type="hidden" name="theme" value="simple" >
+<button role="link"  type="submit">Next page <svg class="ion-icon-small" viewBox="0 0 512 512" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg></button>
+            </div>
+        </form>
+    </nav>
+</div>
+  </main>
+  <footer>
+    <p>
+    Powered by <a href="https://swag.pw/info/en/about">searxng</a> - 2022.06.04-0ce9d9e8 — a privacy-respecting, hackable metasearch engine<br/>
+        <a href="https://github.com/searxng/searxng">Source code</a> |
+        <a href="https://github.com/searxng/searxng/issues">Issue tracker</a> |
+        <a href="https://swag.pw/stats">Engine stats</a> |
+        <a href="https://searx.space">Public instances</a>    </p>
+  </footer>
+  <!--[if gte IE 9]>-->
+  <script src="https://swag.pw/static/themes/simple/js/searxng.min.js"></script>
+  <!--<![endif]-->
+</body>
+</html>

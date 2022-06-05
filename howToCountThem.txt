@@ -1,0 +1,7 @@
+main_results > results > article 
+2022.05.01-8a79eb4d
+query when next q=COPY+--from+docker&category_general=1&pageno=2&language=pt&time_range=None&safesearch=0&theme=simple
+
+main_results > result
+1.0.0 AutoScroll
+query when scroll category_general=1&q=elephant&pageno=4&time_range=None&language=pl-PL

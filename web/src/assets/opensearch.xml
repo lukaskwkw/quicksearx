@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>gimmeasearx</ShortName>
+<Description>Search SearX</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<LongName>SearX using gimmeasearx</LongName>
+<Url type="text/html" method="get" template="http://localhost:9000/random?q={searchTerms}"/>
+</OpenSearchDescription>
