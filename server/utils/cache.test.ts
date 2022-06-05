@@ -13,7 +13,7 @@ describe('Cache', () => {
 
   it('Should correctly initialize the cache', () => {
     expect(instances.TTL).toEqual(3600000);
-    expect(instances._instances).toEqual('REFRESH');
+    expect(instances._data).toEqual('REFRESH');
     expect(instances.data).toEqual('REFRESH');
     expect(instances._time).toEqual(0);
   });
@@ -23,7 +23,7 @@ describe('Cache', () => {
     const instancesCustom = cache(20000)
     instancesCustom.data = 'SpaceInstancesData';
     expect(instancesCustom.TTL).toEqual(20000);
-    expect(instancesCustom._instances).toEqual('SpaceInstancesData');
+    expect(instancesCustom._data).toEqual('SpaceInstancesData');
     expect(instancesCustom._time).toEqual(1000);
   });
 
