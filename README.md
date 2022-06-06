@@ -7,7 +7,7 @@ NodeJS 18.x
 ## Installation
 ### A. using npm
 ```sh
-npx pnpm install && cd web && npx pnpm install
+npx pnpm install && cd web && npx pnpm install && cd ..
 ```
 then build
 ```sh
