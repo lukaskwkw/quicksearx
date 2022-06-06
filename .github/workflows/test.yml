@@ -38,6 +38,9 @@ jobs:
 
     - run: pnpm install && cd web && pnpm install
     
+    - name: Pnpm eslint
+      run: pnpm eslint
+
     - name: Pnpm test
       run: pnpm test
 

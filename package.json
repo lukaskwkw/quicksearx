@@ -10,8 +10,8 @@
     "build": "rm -rf build && npm run build:server && npm run build:web",
     "build:web": "cd web && npm run build",
     "build:server": "npx tsc",
-    "eslint:fix": "eslint --fix",
-    "eslint": "eslint",
+    "eslint:fix": "eslint --fix ./server/**/*.ts",
+    "eslint": "eslint ./server/**/*.ts",
     "test": "jest",
     "semantic-release": "semantic-release"
   },

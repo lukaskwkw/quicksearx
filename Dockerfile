@@ -1,4 +1,4 @@
-FROM lukaskwkw/pnpm7
+FROM nospy/pnpm:18-alpine
 
 WORKDIR /app
 COPY server server
@@ -9,5 +9,6 @@ COPY .eslintrc .eslintrc
 COPY .prettierrc .prettierrc
 COPY pnpm-lock.yaml pnpm-lock.yaml
 RUN pnpm install && cd web && pnpm install
+ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN pnpm build
-CMD ["npm", "run", "start-prod"]
+CMD ["node", "build/index.js"]
