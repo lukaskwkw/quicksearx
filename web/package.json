@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "test",
+  "name": "Quicksearx frontend",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "build": "preact build && mv build ../build/web",
-    "serve": "sirv ../build/web --port 8080 --cors --single",
+    "serve": "sirv ../build/web --port 8090 --cors --single",
     "dev": "preact watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "jest ./tests"

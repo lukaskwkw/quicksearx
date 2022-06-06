@@ -48,3 +48,6 @@ docker run --restart unless-stopped --name quicksearx -d -ti -p 9000:9000 quicks
 * Currently filtering instances is hardcoded and only supports [C, V] in future there will be more filtering on Frontend side like filter by version, search timings etc.
 * Frontend is WIP
 
+### Inspired by [gimmeasearx](https://github.com/demostanis/gimmeasearx)
+
+### Licensed under GPLv3.

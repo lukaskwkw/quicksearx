@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -17,4 +18,32 @@ html, body {
 
 #preact_root {
 	height: 100%;
+}
+
+body {
+	background: #f2f4f6;
+	margin: 0;
+}
+
+.search-container {
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+	width: auto;
+}
+
+input[type="text"] {
+	display: flex;
+	width: calc(100% - 24px);
+	font-size: 18px;
+	font-weight: 600;
+	color: #4b00ff;
+	padding: 10px;
+	border: 2px solid #4b00ff;
 }
