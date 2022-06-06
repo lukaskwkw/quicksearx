@@ -35,7 +35,7 @@ export default class Server {
   private cacheBadUrls(urls: string[]): void {
     this.badInstanceUrlsCached.push(
       ...urls.map((url) => {
-        const instance = cache();
+        const instance = cache(20 * 60 * 1000);
         instance.data = url;
         return instance;
       })
