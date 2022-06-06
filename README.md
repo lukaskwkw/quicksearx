@@ -39,6 +39,8 @@ npm run start:prod
 docker run --restart unless-stopped --name quicksearx -d -ti -p 9000:9000 quicksearx
 ```
 
+Go to http://localhost:9000/ and hit search query or/and add to FF search engine.
+
 ## Features
 
 * If search results < 3 then retry search against another searx instance (search max 3 times)
